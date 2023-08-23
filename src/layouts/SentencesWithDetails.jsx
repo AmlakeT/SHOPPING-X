@@ -7,13 +7,12 @@ function SentencesWithDetails({details , sentence}) {
         setShowDetails(!showDetails)
     }
   return (
-     <div className='p-10 border'>
+     <div className='p-10 border text-center'>
      <p>{sentence}  <span onClick={handelDetails}>{showDetails ? "-" : "+" }</span></p>
      {showDetails && (
        <div>
          {details}
        </div>
-
      ) }
 
      </div>
