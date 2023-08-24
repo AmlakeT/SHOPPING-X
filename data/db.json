@@ -1,5 +1,5 @@
-{
-    "careers": [
+[
+    
       {
         "id": 1,
         "title": "Senior React Developer",
@@ -42,5 +42,5 @@
         "salary": 30000,
         "location": "London, UK"
       }
+    
     ]
-  }
