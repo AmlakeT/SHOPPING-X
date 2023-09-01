@@ -5,12 +5,13 @@ import Products from '../components/Products'
 import Banner from '../components/Banner'
 import banner1 from '../image/banner/banner2.jpg'
 import Banner2  from '../image/banner/shelf1.jpeg'
+import Footer from '../components/Footer'
 
-export const Home = () => {
+ const Home = () => {
     const {state: {products}} = cartState()
     // console.log(state)
   return (
-    <div className=''>
+    <div className='mt-32'>
      <Hero />
      <Products />
      <Banner
@@ -18,6 +19,9 @@ export const Home = () => {
       text  = " Products are manufactured with standardized dimensions, allowing you the freedom to mix and match them without constraints."
       img = {banner1}
      />
+     <div className='relative'>
+     <Footer />
+     </div>
     {/* {products.map((product) => (
       <div key={product.id}>
         <h3>{product.productName}</h3>
@@ -28,3 +32,5 @@ export const Home = () => {
   </div>
   )
 }
+
+export default Home;
