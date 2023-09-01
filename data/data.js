@@ -20,135 +20,127 @@
  import img19 from '../src/image/products/electronics/mobile3.jpeg'
  import img20 from '../src/image/products/electronics/lamp2.jpeg'
 
-
- 
-
-
- 
- 
- 
- 
  
  export const products = [
   {
     "id": 1,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img1}
+    "image": img1
   },
   {
     "id": 2,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img2}
+    "image": img2
   },
   {
     "id": 3,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img3}
+    "image": img3
   },
   {
     "id": 4,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img4}
+    "image": img4
   },
   {
     "id": 5,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img5}
+    "image": img5
   },
   {
     "id": 6,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img6}
+    "image": img6
   },
   {
     "id": 7,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img7}
+    "image": img7
   },
   {
     "id": 8,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img8}
+    "image": img8
   },
   {
     "id": 9,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img9}
+    "image": img9
   },
   {
     "id": 10,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img10}
+    "image": img10
   },
   {
     "id": 11,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img11}
+    "image": img11
   },
   {
     "id": 12,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img12}
+    "image": img12
   },
   {
     "id": 13,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img13}
+    "image": img13
   },
   {
     "id": 14,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img14}
+    "image": img14
   },
   {
     "id": 15,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img15}
+    "image": img15
   },
   {
     "id": 16,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img16}
+    "image": img16
   },
   {
     "id": 17,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img17}
+    "image": img17
   },
   {
     "id": 18,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img18}
+    "image": img18
   },
   {
     "id": 19,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img19}
+    "image": img19
   },
   {
     "id": 20,
     "productName": "Senior React Developer",
     "price": 50000,
-    "image": {img20}
+    "image": img20
   }
   
 ]
