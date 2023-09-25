@@ -7,13 +7,13 @@ import banner1 from '../image/banner/banner2.jpg'
 import Banner2  from '../image/banner/shelf1.jpeg'
 import Footer from '../components/Footer'
 
- const Home = () => {
+ const Home = ({handleClick}) => {
     const {state: {products}} = cartState()
     // console.log(state)
   return (
     <div className='mt-32'>
      <Hero />
-     <Products />
+     <Products handleClick ={handleClick} />
      <Banner
       title = "Live in a comfortable way "
       text  = " Products are manufactured with standardized dimensions, allowing you the freedom to mix and match them without constraints."

@@ -16,6 +16,8 @@ const CategoriesItemElectronics = () => {
                <div className='flex flex-col items-center mt-5'>
                 <p>{product.productName}</p>
                 <p>{product.price}</p>
+                <button className='bg-indigo-500 px-5 py-2 rounded text-white mt-3  hover:scale-110 duration-300'>Add To Cart</button>
+
                </div>
             </Link>
 

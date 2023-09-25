@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import  Home  from './pages/Home'
 import  Categories  from './pages/Categories'
@@ -12,12 +12,23 @@ import { ProductPage } from './pages/ProductPage'
 
 
 const App = () => {
+  const [cart, setCart] = useState([])
+  const handleClick = (item) => {
+    let isPresent = false
+    cart.forEach((product) => {
+      if(item.id === product.id )
+      isPresent =true
+    })
+    if(isPresent)
+    return
+  setCart([...cart, item])
+  }
 
   return (
      <BrowserRouter>
-      <Header />
+      <Header size = {cart.length} />
       <Routes>
-        <Route path='/' element = {<Home />} />
+        <Route path='/' element = {<Home handleClick = {handleClick} />} />
         <Route path='categories' element = {<Categories />}>
           <Route path='all' element = {<All />} />
            <Route path='furnitures' element = {<Furnitures />} />
